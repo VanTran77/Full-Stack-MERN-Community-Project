@@ -1,0 +1,68 @@
+body{
+  background-color: #f7f3f0;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.header > div > p {
+  color: blue;
+  font-style: italic;
+}
+.header{
+  background-image: url('./components/Images/bg3.jpg');
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+/* .header-nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-top: 15px;
+} */
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: blue;
+}
+.project-info {
+  font-size: 40px;
+  margin-top: 10px;
+  color: black
+}
+.logout{
+  display: inline-flex;
+  font-weight: 500;
+}
+.logout > p {
+  margin-right: 150px;
+}
+.btn-info:hover, .btn-primary:hover, .btn-success:hover{
+  color: black;
+  /* font-weight: 500; */
+  background-color:turquoise;
+  border: none;
+  transform: scale(1.1);
+}
+.btn-danger:hover, .btn-warning:hover{
+  color: black;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+.btn-warning:hover{
+  color: black;
+  background-color:rgb(230, 230, 42);
+  transform: scale(1.1);
+}
+#btn-editQuestion{
+  margin: 30px 0 0 110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.errors{
+  color:red;
+}
